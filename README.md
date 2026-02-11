@@ -8,19 +8,17 @@ This repository contains the promotional landing page for Cloud Drive Player, ho
 
 - `index.html` - Main landing page
 - `PRIVACY_POLICY.html` - Privacy policy page
-- `PRIVACY_POLICY.md` - Markdown version
 - `google*.html` - Google Search Console verification
-- Assets (logos, screenshots, etc.)
+- `sitemap.xml` - SEO sitemap
+- `robots.txt` - SEO configuration
 
-## Source Code
+## Purpose
 
-The actual Android app source code is in a private Azure DevOps repository.
-
-This public GitHub repo is solely for:
-- GitHub Pages hosting
-- SEO optimization
-- User-facing documentation
-- Issue tracking and feedback
+This repository is for:
+- **GitHub Pages hosting** - Serves the public landing page
+- **SEO optimization** - Helps users discover the app
+- **User documentation** - Privacy policy and app information
+- **Issue tracking** - Collect user feedback and feature requests
 
 ## Feedback
 
