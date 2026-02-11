@@ -1,6 +1,42 @@
 # This is the GitHub Pages landing page repo
 # Source code is in Azure DevOps
 
+# ============================================================================
+# CRITICAL: NEVER commit sensitive data to public GitHub!
+# ============================================================================
+
+# Keys and credentials
+*.jks
+*.keystore
+keystore.properties
+google-services.json
+*.pem
+*.p12
+
+# Source code - should ONLY be in private ADO repo
+*.kt
+*.java
+*.gradle
+*.gradle.kts
+gradle/
+gradlew
+gradlew.bat
+.gradle/
+app/
+build/
+proguard-rules.pro
+local.properties
+
+# Build outputs
+*.apk
+*.aab
+*.dex
+*.class
+
+# Configuration that might contain secrets
+firebase.json
+firebaserc
+
 # OS files
 .DS_Store
 Thumbs.db
@@ -16,3 +52,15 @@ Thumbs.db
 *.tmp
 *.bak
 .~*
+
+# Git
+.git/
+
+# ============================================================================
+# This repo should ONLY contain:
+# - index.html
+# - PRIVACY_POLICY.html
+# - README.md
+# - Promotional images/screenshots
+# - Google verification files
+# ============================================================================
