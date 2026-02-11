@@ -1,6 +1,6 @@
 # Privacy Policy for Cloud Drive Player
 
-**Last Updated:** February 10, 2026
+**Last Updated:** February 11, 2026
 
 ## Introduction
 
@@ -33,13 +33,30 @@ Cloud Drive Player stores the following information **locally on your device onl
    - Temporary access tokens for OneDrive or Google Drive
    - Stored securely using Android's encrypted storage
 
+### Data Collected via Firebase
+
+Cloud Drive Player uses Firebase Crashlytics and Firebase Analytics to improve app stability and performance:
+
+**Firebase Crashlytics collects:**
+- Crash reports and stack traces
+- Device model and manufacturer
+- Operating system version
+- App version
+- Crash timestamps
+
+**Firebase Analytics collects:**
+- App opens and session duration
+- Device type and OS version
+- General app usage patterns (screens viewed, features used)
+- No personal information, file names, or account details
+
 ### Data We Do NOT Collect
 
-- We do not collect any personal information about you
-- We do not track your usage patterns or behavior
-- We do not collect analytics or crash reports (unless you use Firebase Crashlytics - see below)
+- We do not collect any personal information about you (name, email, etc.)
+- We do not access your music file contents or names
+- We do not track which songs you listen to
 - We do not access any files outside the folders you explicitly select
-- We do not upload any data to our servers (we don't have any servers!)
+- We do not upload your music files or metadata to our servers
 
 ## Third-Party Services
 
@@ -67,13 +84,36 @@ When you connect to Google Drive:
 **Permissions Used:**
 - `drive` scope: To access and stream your music files
 
-### Firebase Crashlytics (Optional)
+### Firebase (Crashlytics and Analytics)
 
-If enabled, Firebase Crashlytics collects crash reports to help us fix bugs:
-- Device model and OS version
-- App version and crash stack traces
-- No personal information is included
-- Google Firebase Privacy Policy applies: https://firebase.google.com/support/privacy
+Cloud Drive Player uses Firebase services to improve app quality:
+
+**What Firebase Collects:**
+- **Crash Reports:** Stack traces, device info, OS version when the app crashes
+- **Analytics:** App usage statistics (screens viewed, features used, session duration)
+- **Device Information:** Model, manufacturer, OS version, screen size
+- **Performance Data:** App startup time, screen loading times
+
+**What Firebase Does NOT Collect:**
+- Your personal information (name, email, phone number)
+- Your music file names, artists, or albums
+- Your listening history or preferences
+- Your OneDrive or Google Drive account information
+- Contents of your music files
+
+**Purpose:**
+- Identify and fix crashes quickly
+- Understand which features are most used
+- Improve app performance and stability
+
+**Data Retention:**
+- Crash data: 90 days
+- Analytics data: 14 months
+
+**Third-Party Policy:**
+- Google Firebase Privacy Policy: https://firebase.google.com/support/privacy
+
+**Note:** Firebase data collection cannot currently be disabled. If you prefer not to share this data, please do not use this app.
 
 ## How We Use Your Information
 
@@ -118,10 +158,18 @@ Cloud Drive Player does not knowingly collect information from children under 13
 
 ## Data Sharing
 
-We do not share your data with any third parties because:
-- We don't collect your data
-- All data stays on your device
-- We don't have servers or analytics services (except Firebase Crashlytics if enabled)
+We share limited data with the following third parties:
+
+**Google Firebase:**
+- Crash reports and analytics data as described above
+- Used solely to improve app stability and performance
+- No personal information or music data is shared
+
+**We do NOT share:**
+- Your music library or listening history
+- Your personal information
+- Your cloud storage account details
+- Any data with advertisers or marketing companies
 
 ## International Data Transfers
 
@@ -164,18 +212,19 @@ By using Cloud Drive Player, you consent to this Privacy Policy.
 
 ---
 
-**Version:** 1.0  
-**Effective Date:** February 10, 2026  
+**Version:** 1.1  
+**Effective Date:** February 11, 2026  
 **App Version:** 1.0
 
 ---
 
 ## Summary (TL;DR)
 
-✅ **All your data stays on your device**  
-✅ **We don't have servers or collect analytics**  
+✅ **Your music data stays on your device**  
+✅ **We use Firebase for crash reports and basic analytics**  
+✅ **We don't collect personal info or listening history**  
 ✅ **We only access folders you explicitly select**  
-✅ **You can delete everything by uninstalling**  
+✅ **You can delete local data by uninstalling**  
 ✅ **Authentication goes directly to Microsoft/Google**  
 ✅ **Your music files never leave your cloud storage (we just stream them)**  
 
