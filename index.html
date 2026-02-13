@@ -112,6 +112,48 @@
             justify-content: center;
             gap: 30px;
         }
+        .screenshots {
+            margin: 40px 0;
+            text-align: center;
+        }
+        .screenshots h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.6em;
+        }
+        .screenshot-grid {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+        .screenshot-item {
+            flex: 0 0 auto;
+            text-align: center;
+        }
+        .screenshot-item img {
+            width: 160px;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            transition: transform 0.2s;
+        }
+        .screenshot-item img:hover {
+            transform: scale(1.05);
+        }
+        .screenshot-item p {
+            margin-top: 8px;
+            font-size: 0.85em;
+            color: #666;
+        }
+        @media (max-width: 600px) {
+            .screenshot-grid {
+                gap: 10px;
+            }
+            .screenshot-item img {
+                width: 130px;
+            }
+        }
         .footer {
             text-align: center;
             margin-top: 40px;
@@ -156,6 +198,28 @@
                 <div class="feature-icon">🚗</div>
                 <h3>Android Auto</h3>
                 <p>Full integration with car displays for safe driving</p>
+            </div>
+        </div>
+
+        <div class="screenshots">
+            <h2>See It in Action</h2>
+            <div class="screenshot-grid">
+                <div class="screenshot-item">
+                    <img src="screenshots/07_home_screen.png" alt="Home screen with recently played and all tracks">
+                    <p>Home</p>
+                </div>
+                <div class="screenshot-item">
+                    <img src="screenshots/04_library_tracks.png" alt="Library with track list, filters, and playback controls">
+                    <p>Library</p>
+                </div>
+                <div class="screenshot-item">
+                    <img src="screenshots/03_audio_player.png" alt="Now playing with vinyl record and album art theming">
+                    <p>Now Playing</p>
+                </div>
+                <div class="screenshot-item">
+                    <img src="screenshots/01_video_player.png" alt="Video playback with inline player">
+                    <p>Video Player</p>
+                </div>
             </div>
         </div>
 
