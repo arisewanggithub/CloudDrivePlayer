@@ -7,8 +7,8 @@ Stream your music and videos directly from **OneDrive** or **Google Drive** — 
 </p>
 
 <p align="center">
-  <a href="https://arisewanggithub.github.io/CloudDrivePlayer/">Website</a> ·
-  <a href="https://arisewanggithub.github.io/CloudDrivePlayer/PRIVACY_POLICY.html">Privacy Policy</a> ·
+  <a href="https://clouddriveplayer.redraintech.com/">Website</a> ·
+  <a href="https://clouddriveplayer.redraintech.com/PRIVACY_POLICY.html">Privacy Policy</a> ·
   <a href="mailto:clouddriveplayer@outlook.com">Contact</a>
 </p>
 
