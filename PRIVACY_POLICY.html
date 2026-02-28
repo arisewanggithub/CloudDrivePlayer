@@ -104,7 +104,7 @@
         
         <div class="header">
             <h1>Privacy Policy for Cloud Drive Player</h1>
-            <p class="last-updated"><strong>Last Updated:</strong> February 11, 2026</p>
+            <p class="last-updated"><strong>Last Updated:</strong> February 28, 2026</p>
         </div>
 
         <h2>Introduction</h2>
@@ -202,7 +202,7 @@
         </ul>
         <p><strong>Permissions Used:</strong></p>
         <ul>
-            <li><code>drive</code> scope: To access and stream your media files</li>
+            <li><code>drive.readonly</code> scope: Read-only access to browse and stream your media files (no write or delete capabilities)</li>
         </ul>
 
         <h3>Firebase (Crashlytics and Analytics)</h3>
@@ -258,9 +258,40 @@
         <h2>Data Storage and Security</h2>
         <ul>
             <li><strong>All data is stored locally</strong> on your device</li>
-            <li>Authentication tokens are stored using Android's built-in encrypted storage</li>
-            <li>We do not transmit any data to external servers (except authentication to Microsoft/Google)</li>
             <li>Your music files are streamed directly from your cloud storage to your device</li>
+            <li>We do not transmit any data to external servers (except authentication to Microsoft/Google)</li>
+        </ul>
+
+        <h3>Data Protection Mechanisms for Sensitive Data</h3>
+        <p>Cloud Drive Player implements multiple layers of security to protect sensitive information:</p>
+        
+        <p><strong>Authentication Tokens and Credentials:</strong></p>
+        <ul>
+            <li>Stored using Android's encrypted shared preferences (Android KeyStore encryption)</li>
+            <li>Tokens are never logged or exposed in crash reports</li>
+            <li>Automatic token refresh ensures old tokens expire quickly</li>
+            <li>Tokens are deleted immediately when you sign out or uninstall the app</li>
+        </ul>
+        
+        <p><strong>Cached Metadata:</strong></p>
+        <ul>
+            <li>Local database is encrypted using Android's built-in encryption</li>
+            <li>Cache can be manually cleared from app settings at any time</li>
+            <li>Cache is automatically cleared when you uninstall the app</li>
+        </ul>
+        
+        <p><strong>In-Transit Protection:</strong></p>
+        <ul>
+            <li>All communication with cloud providers (Microsoft, Google) uses HTTPS/TLS encryption</li>
+            <li>Media files are streamed over encrypted HTTPS connections</li>
+            <li>No credentials or sensitive data are ever transmitted unencrypted</li>
+        </ul>
+        
+        <p><strong>Firebase Data Security:</strong></p>
+        <ul>
+            <li>Firebase Crashlytics and Analytics data is transmitted over encrypted connections</li>
+            <li>Crash reports cannot contain personal information or music file names</li>
+            <li>Analytics data is aggregated and anonymized</li>
         </ul>
 
         <h2>Your Rights and Choices</h2>
@@ -351,9 +382,9 @@
         <hr style="margin: 40px 0; border: none; border-top: 2px solid #eee;">
 
         <p style="text-align: center;">
-            <strong>Version:</strong> 1.1<br>
-            <strong>Effective Date:</strong> February 11, 2026<br>
-            <strong>App Version:</strong> 1.0
+            <strong>Version:</strong> 1.2<br>
+            <strong>Effective Date:</strong> February 28, 2026<br>
+            <strong>App Version:</strong> 1.0.10
         </p>
 
         <div class="summary">
