@@ -7,6 +7,8 @@ Stream your music and videos directly from **OneDrive** or **Google Drive** — 
 </p>
 
 <p align="center">
+  <a href="https://play.google.com/store/apps/details?id=com.redrain.clouddriveplayer">Google Play</a> ·
+  <a href="https://apps.microsoft.com/detail/9pfxngjljn2p">Microsoft Store</a> ·
   <a href="https://clouddriveplayer.redraintech.com/">Website</a> ·
   <a href="https://clouddriveplayer.redraintech.com/PRIVACY_POLICY.html">Privacy Policy</a> ·
   <a href="mailto:clouddriveplayer@outlook.com">Contact</a>
