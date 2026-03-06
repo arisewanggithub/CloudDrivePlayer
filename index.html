@@ -134,38 +134,64 @@
             margin-bottom: 10px;
         }
         .cta {
-            text-align: center;
             margin: 40px 0 20px;
         }
-        .cta-intro {
-            max-width: 980px;
-            margin: 0 auto 20px;
-            padding: 18px 20px;
-            background: #f7f9ff;
-            border: 1px solid #e6ebff;
-            border-radius: 12px;
-            text-align: left;
-            color: #444;
+        .cta h3 {
+            text-align: center;
+            color: #666;
+            margin-bottom: 12px;
         }
-        .cta-intro p {
-            margin: 0 0 8px;
+        .get-status {
+            text-align: center;
+            color: #555;
+            font-size: 1.05em;
+            margin-bottom: 18px;
         }
-        .cta-intro p:last-child {
-            margin-bottom: 0;
-        }
-        .cta-buttons {
+        .get-grid {
             display: grid;
             grid-template-columns: repeat(2, minmax(0, 1fr));
             gap: 20px;
-            max-width: 980px;
-            margin: 0 auto;
+        }
+        .get-card {
+            background: #f7f9ff;
+            border: 1px solid #e6ebff;
+            border-radius: 14px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .get-card h4 {
+            color: #667eea;
+            font-size: 1.25em;
+            margin: 0;
+        }
+        .get-card p {
+            color: #555;
+            margin: 0;
+        }
+        .step-list {
+            margin: 0;
+            padding-left: 20px;
+            color: #444;
+        }
+        .step-list li {
+            margin-bottom: 8px;
+        }
+        .step-list li:last-child {
+            margin-bottom: 0;
+        }
+        .card-buttons {
+            display: grid;
+            gap: 12px;
+            margin-top: 2px;
         }
         .button {
             display: flex;
             align-items: center;
             justify-content: center;
             width: 100%;
-            min-height: 64px;
+            min-height: 56px;
             padding: 15px 24px;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
@@ -184,11 +210,6 @@
             background: white;
             color: #667eea;
             border: 2px solid #667eea;
-        }
-        .cta-note {
-            margin-top: 14px;
-            color: #666;
-            font-size: 0.95em;
         }
         .platforms {
             text-align: center;
@@ -247,7 +268,7 @@
             }
         }
         @media (max-width: 760px) {
-            .cta-buttons {
+            .get-grid {
                 grid-template-columns: 1fr;
             }
         }
@@ -272,7 +293,7 @@
         <div class="header">
             <div class="logo"><img src="ic_launcher_512.png" alt="Cloud Drive Player Icon"></div>
             <h1>Cloud Drive Player</h1>
-            <p class="tagline">Android closed testing is live. Currently OneDrive sign-in only while Google OAuth verification is pending.</p>
+            <p class="tagline">Stream your music and videos from cloud storage on Android and Windows.</p>
         </div>
 
         <div class="features">
@@ -333,19 +354,31 @@
 
 
         <div class="cta">
-            <h3 style="color: #666; margin-bottom: 15px;">Get Cloud Drive Player</h3>
-            <div class="cta-intro">
-                <p><strong>Android closed testing requires 2 quick steps:</strong></p>
-                <p><strong>Step 1:</strong> Join tester Google Group: <a href="https://groups.google.com/g/cloud-drive-player-testers" style="word-break: break-word;">cloud-drive-player-testers@googlegroups.com</a></p>
-                <p><strong>Step 2:</strong> Join Android closed testing (web or Android), then install from Google Play.</p>
+            <h3>Get Cloud Drive Player</h3>
+            <p class="get-status">Android closed testing is live. Currently OneDrive sign-in only while Google OAuth verification is pending.</p>
+            <div class="get-grid">
+                <div class="get-card">
+                    <h4>Android (Closed Testing)</h4>
+                    <p>Follow the steps below using the same Google account you use in Google Play.</p>
+                    <ol class="step-list">
+                        <li>Join tester Google Group: <a href="https://groups.google.com/g/cloud-drive-player-testers" style="word-break: break-word;">cloud-drive-player-testers@googlegroups.com</a></li>
+                        <li>Join Android closed testing.</li>
+                        <li>Install or update from Google Play.</li>
+                    </ol>
+                    <div class="card-buttons">
+                        <a href="https://groups.google.com/g/cloud-drive-player-testers" class="button secondary">Join Tester Google Group</a>
+                        <a href="https://play.google.com/apps/testing/com.arisewang.clouddriveplayer" class="button">Join Android Closed Testing</a>
+                        <a href="https://play.google.com/store/apps/details?id=com.arisewang.clouddriveplayer" class="button">Get from Google Play</a>
+                    </div>
+                </div>
+                <div class="get-card">
+                    <h4>Windows</h4>
+                    <p>Install directly from Microsoft Store.</p>
+                    <div class="card-buttons">
+                        <a href="https://apps.microsoft.com/detail/9pfxngjljn2p" class="button">Get from Microsoft Store</a>
+                    </div>
+                </div>
             </div>
-            <div class="cta-buttons">
-                <a href="https://groups.google.com/g/cloud-drive-player-testers" class="button secondary">Join Tester Google Group</a>
-                <a href="https://play.google.com/apps/testing/com.arisewang.clouddriveplayer" class="button">Join Android Closed Testing</a>
-                <a href="https://play.google.com/store/apps/details?id=com.arisewang.clouddriveplayer" class="button">Get from Google Play</a>
-                <a href="https://apps.microsoft.com/detail/9pfxngjljn2p" class="button">Get from Microsoft Store</a>
-            </div>
-            <p class="cta-note">Need help joining? Email <a href="mailto:clouddriveplayer@outlook.com">clouddriveplayer@outlook.com</a></p>
         </div>
 
         <div class="platforms">
