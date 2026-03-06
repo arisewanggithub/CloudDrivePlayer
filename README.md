@@ -24,8 +24,9 @@ Google Drive sign-in is **coming soon** after OAuth verification.
 ## Features
 
 ### Android Closed Testing
-- Join on Android: https://play.google.com/store/apps/details?id=com.arisewang.clouddriveplayer
-- Join on web: https://play.google.com/apps/testing/com.arisewang.clouddriveplayer
+- Step 1 - Join tester Google Group: https://groups.google.com/g/cloud-drive-player-testers
+- Step 2 - Join on Android: https://play.google.com/store/apps/details?id=com.arisewang.clouddriveplayer
+- Or join on web: https://play.google.com/apps/testing/com.arisewang.clouddriveplayer
 - Feedback email: clouddriveplayer@outlook.com
 
 ### Cloud Streaming
