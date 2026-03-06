@@ -12,7 +12,6 @@ Android app status: **Android closed testing is live. Currently OneDrive sign-in
 
 <p align="center">
   <a href="https://play.google.com/store/apps/details?id=com.arisewang.clouddriveplayer">Google Play</a> ·
-  <a href="https://play.google.com/apps/testing/com.arisewang.clouddriveplayer">Join Android Closed Testing</a> ·
   <a href="https://apps.microsoft.com/detail/9pfxngjljn2p">Microsoft Store</a> ·
   <a href="https://clouddriveplayer.redraintech.com/">Website</a> ·
   <a href="https://clouddriveplayer.redraintech.com/PRIVACY_POLICY.html">Privacy Policy</a> ·
