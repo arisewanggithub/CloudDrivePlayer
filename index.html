@@ -219,6 +219,12 @@
             color: #666;
             margin-bottom: 15px;
         }
+        .formats-footnote {
+            margin-top: 12px;
+            color: #666;
+            font-size: 0.92em;
+            text-align: left;
+        }
         .platform-icons {
             font-size: 40px;
             display: flex;
@@ -348,8 +354,21 @@
 
         <div class="platforms">
             <h3>Supported Formats</h3>
-            <p>Audio: MP3, M4A, AAC, FLAC, OGG, Opus, WAV</p>
-            <p>Video: MP4, MKV, WebM, AVI, MOV, M4V, WMV, FLV, TS, 3GP</p>
+            <div class="get-grid">
+                <div class="get-card">
+                    <h4>Android Version</h4>
+                    <p><strong>Audio:</strong> MP3, M4A, AAC, FLAC, OGG, Opus, WAV</p>
+                    <p><strong>Video:</strong> MP4, MKV, WebM, AVI, MOV, M4V, WMV, FLV, TS, 3GP</p>
+                </div>
+                <div class="get-card">
+                    <h4>Windows Version</h4>
+                    <p><strong>Guaranteed Audio:</strong> MP3, M4A/AAC-LC, WAV (PCM), FLAC</p>
+                    <p><strong>Guaranteed Video:</strong> MP4 (H.264 + AAC), M4V (H.264 + AAC)</p>
+                    <p><strong>Best-Effort Audio:</strong> OGG Vorbis, OGG Opus</p>
+                    <p><strong>Best-Effort Video:</strong> MKV (H.264 + AAC), MOV (H.264 + AAC), MP4 (HEVC/H.265 + AAC), VP9 (WebM/MP4), AV1 (MP4)</p>
+                    <p class="formats-footnote">Best-effort playback may vary by codec and system configuration.</p>
+                </div>
+            </div>
         </div>
 
 
