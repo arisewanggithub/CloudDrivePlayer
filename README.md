@@ -76,10 +76,26 @@ Android app status: **Android closed testing is live. Currently OneDrive sign-in
 
 ## Supported Formats
 
+### Android Version
 | Type | Formats |
 |------|---------|
 | Audio | MP3, M4A, AAC, FLAC, OGG, Opus, WAV |
 | Video | MP4, MKV, WebM, AVI, MOV, M4V, WMV, FLV, TS, 3GP |
+
+### Windows Version
+Guaranteed (must pass):
+
+| Type | Formats |
+|------|---------|
+| Audio | MP3, M4A/AAC-LC, WAV (PCM), FLAC |
+| Video | MP4 (H.264 + AAC), M4V (H.264 + AAC) |
+
+Best effort (playability may vary by codec/system):
+
+| Type | Formats |
+|------|---------|
+| Audio | OGG Vorbis, OGG Opus |
+| Video | MKV (H.264 + AAC), MOV (H.264 + AAC), MP4 (HEVC/H.265 + AAC), VP9 (WebM/MP4), AV1 (MP4) |
 
 ---
 
