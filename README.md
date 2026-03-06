@@ -2,9 +2,7 @@
 
 Stream your music and videos directly from **OneDrive** — no downloading required.
 
-Android app status: **Closed testing is live on Google Play**.
-
-Google Drive sign-in is **coming soon** after OAuth verification.
+Android app status: **Android closed testing is live. Currently OneDrive sign-in only while Google OAuth verification is pending.**
 
 <p align="center">
   <img src="ic_launcher_512.png" alt="Cloud Drive Player" width="128">
