@@ -137,6 +137,22 @@
             text-align: center;
             margin: 40px 0 20px;
         }
+        .cta-intro {
+            max-width: 980px;
+            margin: 0 auto 20px;
+            padding: 18px 20px;
+            background: #f7f9ff;
+            border: 1px solid #e6ebff;
+            border-radius: 12px;
+            text-align: left;
+            color: #444;
+        }
+        .cta-intro p {
+            margin: 0 0 8px;
+        }
+        .cta-intro p:last-child {
+            margin-bottom: 0;
+        }
         .cta-buttons {
             display: grid;
             grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -168,6 +184,11 @@
             background: white;
             color: #667eea;
             border: 2px solid #667eea;
+        }
+        .cta-note {
+            margin-top: 14px;
+            color: #666;
+            font-size: 0.95em;
         }
         .platforms {
             text-align: center;
@@ -254,17 +275,6 @@
             <p class="tagline">Android closed testing is live. Currently OneDrive sign-in only while Google OAuth verification is pending.</p>
         </div>
 
-        <div class="feature" style="margin-bottom: 24px; border: 1px solid #e6ebff; background: #f7f9ff;">
-            <div class="feature-icon">🧪</div>
-            <h3>Join Android Closed Testing</h3>
-            <p style="margin-bottom: 8px;">Help us test Cloud Drive Player on Android.</p>
-            <p style="margin-bottom: 8px; color: #444;"><strong>Step 1:</strong> Join tester Google Group: <a href="https://groups.google.com/g/cloud-drive-player-testers" style="word-break: break-word;">cloud-drive-player-testers@googlegroups.com</a></p>
-            <p style="margin-bottom: 8px; color: #444;"><strong>Step 2:</strong> Opt in to the closed test using one of these links:</p>
-            <p style="word-break: break-word;"><a href="https://play.google.com/store/apps/details?id=com.arisewang.clouddriveplayer">Join on Android</a></p>
-            <p style="word-break: break-word;"><a href="https://play.google.com/apps/testing/com.arisewang.clouddriveplayer">Join on the Web</a></p>
-            <p style="margin-top: 10px; color: #666;">Feedback email: <a href="mailto:clouddriveplayer@outlook.com">clouddriveplayer@outlook.com</a></p>
-        </div>
-
         <div class="features">
             <div class="feature">
                 <div class="feature-icon">☁️</div>
@@ -324,12 +334,18 @@
 
         <div class="cta">
             <h3 style="color: #666; margin-bottom: 15px;">Get Cloud Drive Player</h3>
-            <div class="cta-buttons">
-                <a href="https://play.google.com/store/apps/details?id=com.arisewang.clouddriveplayer" class="button">Get from Google Play</a>
-                <a href="https://play.google.com/apps/testing/com.arisewang.clouddriveplayer" class="button">Join Android Closed Testing</a>
-                <a href="https://apps.microsoft.com/detail/9pfxngjljn2p" class="button">Get from Microsoft Store</a>
-                <a href="https://github.com/arisewanggithub/CloudDrivePlayer" class="button secondary">View on GitHub</a>
+            <div class="cta-intro">
+                <p><strong>Android closed testing requires 2 quick steps:</strong></p>
+                <p><strong>Step 1:</strong> Join tester Google Group: <a href="https://groups.google.com/g/cloud-drive-player-testers" style="word-break: break-word;">cloud-drive-player-testers@googlegroups.com</a></p>
+                <p><strong>Step 2:</strong> Join Android closed testing (web or Android), then install from Google Play.</p>
             </div>
+            <div class="cta-buttons">
+                <a href="https://groups.google.com/g/cloud-drive-player-testers" class="button secondary">Join Tester Google Group</a>
+                <a href="https://play.google.com/apps/testing/com.arisewang.clouddriveplayer" class="button">Join Android Closed Testing</a>
+                <a href="https://play.google.com/store/apps/details?id=com.arisewang.clouddriveplayer" class="button">Get from Google Play</a>
+                <a href="https://apps.microsoft.com/detail/9pfxngjljn2p" class="button">Get from Microsoft Store</a>
+            </div>
+            <p class="cta-note">Need help joining? Email <a href="mailto:clouddriveplayer@outlook.com">clouddriveplayer@outlook.com</a></p>
         </div>
 
         <div class="platforms">
