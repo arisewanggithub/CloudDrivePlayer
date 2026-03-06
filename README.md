@@ -1,13 +1,18 @@
 # Cloud Drive Player
 
-Stream your music and videos directly from **OneDrive** or **Google Drive** — no downloading required.
+Stream your music and videos directly from **OneDrive** — no downloading required.
+
+Android app status: **Closed testing is live on Google Play**.
+
+Google Drive sign-in is **temporarily disabled** while OAuth verification is in progress (coming soon).
 
 <p align="center">
   <img src="ic_launcher_512.png" alt="Cloud Drive Player" width="128">
 </p>
 
 <p align="center">
-  <a href="https://play.google.com/store/apps/details?id=com.redrain.clouddriveplayer">Google Play</a> ·
+  <a href="https://play.google.com/store/apps/details?id=com.arisewang.clouddriveplayer">Google Play</a> ·
+  <a href="https://play.google.com/apps/testing/com.arisewang.clouddriveplayer">Join Closed Testing</a> ·
   <a href="https://apps.microsoft.com/detail/9pfxngjljn2p">Microsoft Store</a> ·
   <a href="https://clouddriveplayer.redraintech.com/">Website</a> ·
   <a href="https://clouddriveplayer.redraintech.com/PRIVACY_POLICY.html">Privacy Policy</a> ·
@@ -18,8 +23,13 @@ Stream your music and videos directly from **OneDrive** or **Google Drive** — 
 
 ## Features
 
+### Android Closed Testing
+- Join on Android: https://play.google.com/store/apps/details?id=com.arisewang.clouddriveplayer
+- Join on web: https://play.google.com/apps/testing/com.arisewang.clouddriveplayer
+- Feedback email: clouddriveplayer@outlook.com
+
 ### Cloud Streaming
-- Stream audio and video directly from OneDrive or Google Drive
+- Stream audio and video directly from OneDrive
 - No need to download files — play instantly from the cloud
 - Smart streaming cache with configurable size limit
 
