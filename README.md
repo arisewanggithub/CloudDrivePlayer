@@ -2,7 +2,7 @@
 
 Stream your music and videos directly from **OneDrive** — no downloading required.
 
-Platform availability: **Android (closed testing)** and **Windows (available now on Microsoft Store)**.
+Platform availability: **Android Version (Closed Testing - Join on Google Play)** and **Windows Version (Officially Released - Available on Microsoft Store)**.
 
 Android app status: **Android closed testing is live. Currently OneDrive sign-in only while Google OAuth verification is pending.**
 
@@ -23,13 +23,13 @@ Android app status: **Android closed testing is live. Currently OneDrive sign-in
 
 ## Features
 
-### Android Closed Testing
+### Android Version (Closed Testing - Join on Google Play)
 - Step 1 - Join tester Google Group: https://groups.google.com/g/cloud-drive-player-testers
 - Step 2 - Join on Android: https://play.google.com/store/apps/details?id=com.arisewang.clouddriveplayer
 - Or join on web: https://play.google.com/apps/testing/com.arisewang.clouddriveplayer
 - Feedback email: clouddriveplayer@outlook.com
 
-### Windows Version
+### Windows Version (Officially Released)
 - Available now on Microsoft Store: https://apps.microsoft.com/detail/9pfxngjljn2p
 - Sign in with OneDrive to stream your music and videos on desktop
 
