@@ -101,14 +101,18 @@ Best effort (playability may vary by codec/system):
 
 ## Keyboard Shortcuts
 
-When using a physical keyboard (Bluetooth keyboard, Samsung DeX, tablet, etc.):
+Cloud Drive Player supports keyboard shortcuts on both Android and Windows platforms.
 
-### Now Playing Screen
+### Android (Physical Keyboard)
+
+When using a physical keyboard (Bluetooth keyboard, Samsung DeX, Android TV, tablet, etc.):
+
+#### Now Playing Screen
 | Key | Action |
 |-----|--------|
 | **F** | Enter fullscreen video player (video tracks only) |
 
-### Fullscreen Video Player
+#### Fullscreen Video Player
 | Key | Action |
 |-----|--------|
 | **Space** | Play / Pause |
@@ -121,6 +125,22 @@ When using a physical keyboard (Bluetooth keyboard, Samsung DeX, tablet, etc.):
 | **Escape** | Exit fullscreen |
 
 Media keys (play/pause, rewind, fast-forward) are also supported. All shortcuts are disabled when controls are locked.
+
+### Windows Desktop
+
+The Windows version supports these global keyboard shortcuts:
+
+| Key | Action |
+|-----|--------|
+| **Space** | Play / Pause |
+| **N** | Next track |
+| **P** | Previous track |
+| **→** | Seek forward 10 seconds |
+| **←** | Seek back 10 seconds |
+| **F11** or **F** | Toggle fullscreen video mode |
+| **Escape** | Exit fullscreen |
+
+**Note:** Keyboard shortcuts are disabled when typing in text fields (search box, etc.).
 
 ---
 
