@@ -135,14 +135,13 @@ The Windows version supports these global keyboard shortcuts:
 | **Space** | Play / Pause |
 | **N** | Next track |
 | **P** | Previous track |
-| **→** | Seek forward 10 seconds |
+| **→** | Seek forward 30 seconds |
 | **←** | Seek back 10 seconds |
 | **F11** or **F** | Toggle fullscreen video mode |
 | **Escape** | Exit fullscreen |
 
 **Note:** Keyboard shortcuts are disabled when typing in text fields (search box, etc.).
 
----
 
 ## Screenshots
 
