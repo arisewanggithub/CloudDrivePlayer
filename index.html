@@ -47,7 +47,8 @@
             "https://clouddriveplayer.redraintech.com/screenshots/07_home_screen.png",
             "https://clouddriveplayer.redraintech.com/screenshots/04_library_tracks.png",
             "https://clouddriveplayer.redraintech.com/screenshots/03_audio_player.png",
-            "https://clouddriveplayer.redraintech.com/screenshots/01_video_player.png"
+            "https://clouddriveplayer.redraintech.com/screenshots/01_video_player.png",
+            "https://clouddriveplayer.redraintech.com/screenshots/08_windows_music_library.png"
         ],
         "offers": {
             "@type": "Offer",
@@ -259,6 +260,25 @@
             font-size: 0.85em;
             color: #666;
         }
+        .desktop-screenshot {
+            margin: 28px auto 0;
+            max-width: 100%;
+            background: #f8f9fa;
+            border: 1px solid #e8e8e8;
+            border-radius: 14px;
+            padding: 12px;
+        }
+        .desktop-screenshot img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 6px 24px rgba(0,0,0,0.2);
+        }
+        .desktop-screenshot p {
+            margin-top: 10px;
+            font-size: 0.9em;
+            color: #666;
+        }
         @media (max-width: 600px) {
             .screenshot-grid {
                 gap: 10px;
@@ -325,7 +345,7 @@
         </div>
 
         <div class="screenshots">
-            <h2>See It in Action</h2>
+            <h2>See It in Action (Android)</h2>
             <div class="screenshot-grid">
                 <div class="screenshot-item">
                     <img src="screenshots/07_home_screen.png" alt="Home screen with recently played and all tracks">
@@ -343,6 +363,10 @@
                     <img src="screenshots/01_video_player.png" alt="Video playback with inline player">
                     <p>Video Player</p>
                 </div>
+            </div>
+            <div class="desktop-screenshot">
+                <img src="screenshots/08_windows_music_library.png" alt="Windows desktop music library view with songs, albums, artists tabs, and playback controls">
+                <p>Windows Desktop: Music Library</p>
             </div>
         </div>
 

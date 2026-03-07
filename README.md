@@ -145,11 +145,19 @@ The Windows version supports these global keyboard shortcuts:
 
 ## Screenshots
 
+### Android
+
 <p align="center">
   <img src="screenshots/07_home_screen.png" alt="Home" width="180">
   <img src="screenshots/04_library_tracks.png" alt="Library" width="180">
   <img src="screenshots/03_audio_player.png" alt="Now Playing" width="180">
   <img src="screenshots/01_video_player.png" alt="Video Player" width="180">
+</p>
+
+### Windows
+
+<p align="center">
+  <img src="screenshots/08_windows_music_library.png" alt="Windows desktop music library" width="900">
 </p>
 
 ---
