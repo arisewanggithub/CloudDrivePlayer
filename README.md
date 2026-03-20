@@ -1,10 +1,10 @@
 # Cloud Drive Player
 
-Stream your music and videos directly from **OneDrive** — no downloading required.
+Stream your music and videos directly from **OneDrive** or **Google Drive** — no downloading required.
 
 Platform availability: **Android Version (Closed Testing - Join on Google Play)** and **Windows Version (Officially Released - Available on Microsoft Store)**.
 
-Android app status: **Android closed testing is live. Currently OneDrive sign-in only while Google OAuth verification is pending.**
+App Status: **Android closed testing is live (OneDrive only). Windows version officially released with OneDrive and Google Drive support.**
 
 <p align="center">
   <img src="ic_launcher_512.png" alt="Cloud Drive Player" width="128">
@@ -31,10 +31,10 @@ Android app status: **Android closed testing is live. Currently OneDrive sign-in
 
 ### Windows Version (Officially Released)
 - Available now on Microsoft Store: https://apps.microsoft.com/detail/9pfxngjljn2p
-- Sign in with OneDrive to stream your music and videos on desktop
+- Sign in with OneDrive or Google Drive to stream your music and videos on desktop
 
 ### Cloud Streaming
-- Stream audio and video directly from OneDrive
+- Stream audio and video directly from OneDrive or Google Drive
 - No need to download files — play instantly from the cloud
 - Smart streaming cache with configurable size limit
 
