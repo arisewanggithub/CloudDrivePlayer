@@ -23,6 +23,7 @@ Available now on **[Google Play](https://play.google.com/store/apps/details?id=c
 
 ### Android Version
 - Available on Google Play: https://play.google.com/store/apps/details?id=com.arisewang.clouddriveplayer
+- Sign in with OneDrive or Google Drive to stream your music and videos on the go
 - Feedback email: clouddriveplayer@outlook.com
 
 ### Windows Version
